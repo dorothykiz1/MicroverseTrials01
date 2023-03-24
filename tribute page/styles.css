@@ -1,8 +1,13 @@
 
-.container {
+.main {
     display: flex; 
     justify-content: center;
     background-color: rgb(161, 194, 232);
+
+  }
+  .container {
+    justify-content: center;
+    background-color: rgb(105, 162, 226);
 
   }
 
@@ -16,10 +21,18 @@ p{
     text-align: center;
 }
 
-img{
+
+#image{
     background-color: azure;
+    max-height: 100%;
+    max-width: 100%;
+   
+    display: block;
 
-    width: 1000px;
-    height: 500px;
+}
 
+
+ul{
+
+    text-align: center;
 }
